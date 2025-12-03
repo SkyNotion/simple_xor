@@ -101,7 +101,7 @@ int decode_file(char* fname, char* key){
 int main(int argc, char* argv[]){
     int encode = 0, decode = 0;
     char *key = NULL;
-    char arg;
+    int arg;
     while((arg = getopt(argc, argv, "edk:")) != -1){
         switch(arg){
             case 'e':
