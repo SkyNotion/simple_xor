@@ -24,8 +24,8 @@ Usage: sxor [options] file1.dat file2.txt ...
 -k the key to use for the encode or decode (max length: 4096)
 
 # To encode a file
-./sxor -e -f file.txt -k 'my_key'
+./sxor -e -k 'my_key' file.txt
 
 # To decode a file
-./sxor -d -f file.dat -k 'my_key'
+./sxor -d -k 'my_key' file.dat
 ```
