@@ -120,7 +120,7 @@ int main(int argc, char* argv[]){
     }
 
     if(!encode && !decode){
-        fprintf(stderr, "Select atleast one operation (-e or -d) and -f\n");
+        fprintf(stderr, "Select atleast one operation -e (encode) or -d (decode)\n");
         fprintf(stderr, help_message);
         return -1;
     }
