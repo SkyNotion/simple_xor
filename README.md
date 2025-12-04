@@ -13,7 +13,10 @@ git clone https://github.com/SkyNotion/simple_xor.git
 
 cd simple_xor
 
-gcc sxor.c -o sxor
+make
+
+# Make sure ~/.local/bin is in your env PATH
+make install
 ```
 
 ## Usage
