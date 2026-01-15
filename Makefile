@@ -2,7 +2,7 @@ SRC = sxor.c
 INSTALL_DIR = "${HOME}/.local/bin"
 
 sxor: ${SRC}
-	${CC} ${CFLAGS} ${SRC} -o sxor
+	${CC} -O2 ${CFLAGS} ${SRC} -o sxor
 
 install: sxor
 	@if ! test -d ${INSTALL_DIR}; then \
